@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Авторизация LSCSD</title></head>
+<body>
+<script>
+  if(window.location.hash){
+    window.location.href = window.location.origin + '/index.html' + window.location.hash;
+  }else{
+    window.location.href = '/';
+  }
+</script>
+</body>
+</html>
